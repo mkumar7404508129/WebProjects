@@ -1,0 +1,82 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+   background-image: url('https://previews.123rf.com/images/sdecoret/sdecoret1709/sdecoret170901569/86528646-businessman-on-blurred-background-chatting-with-chatbot-application-3d-rendering.jpg');
+   background-size: cover;
+   align-content: center;
+}
+.container{
+  height: 100vh;
+  width: inherit;
+}
+.container header{
+  background-color: transparent;
+  border: 1px rgb(224, 255, 248) solid;
+  text-align: center;
+  color:rgb(238, 53, 7);
+}
+
+.logout input{
+  width: 20%;
+  height: 5vh;
+  border:3px white solid;
+  float: right;
+  color:rebeccapurple;
+  background-color: red;
+  clear: both;
+}
+
+.isonline{
+  float: left;
+  border: 3px white solid;
+  background-color: cadetblue;
+  
+}
+.chatbox{
+  overflow:scroll;
+  width: 60vw;
+  float:right;
+  height: 60vh;
+  border: 2px white solid;
+  
+}
+.message{
+  clear: both;
+  width: 100%;
+  
+  align-content: center;
+  overflow: auto;
+}
+#text{
+  float: right;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60vw;
+  border-radius: 12px;
+}
+#send{
+    float: right;
+    margin-right: 20%;
+    width: 20%;
+    height: 20%;
+    color: blue;
+    
+}
+.footer{
+  text-align: center;
+  color:red;
+}
+.self{
+  background-color: red;
+  float: right;
+}
+
+  @media (min-width: 300px) and (max-width: 600px){
+   .chatbox{
+     margin-left: 20%;
+     margin-right: 20%;
+   }
+  }

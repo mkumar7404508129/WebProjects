@@ -1,0 +1,12 @@
+.solve,.pending{
+   height: 50vh;
+   text-align: center;
+   padding: 50px;
+   font-size: 30px;
+}
+.solve{
+    background-color: cornsilk;
+}
+.pending{
+    background-color:rgb(213, 224, 197)
+}

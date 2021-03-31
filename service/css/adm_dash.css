@@ -1,0 +1,47 @@
+.upper{
+    height: 39vh;
+}
+.low{
+    height: 59vh;
+}
+.card{
+    text-align: center;
+    color: white;
+    height:80%;
+    background-color: red;
+    width:30%;
+    float: left;
+    margin:15px ;
+    border-radius: 15px;
+}
+.card .head{
+    
+    padding: 10px;
+    
+    height: 30%;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px  rgb(206, 133, 133);
+    width: 100%;
+}
+.card .data{
+    margin-top:2px;
+    padding: 20px;
+    height: 69%;
+    width: 100%;
+}
+.card:nth-child(2)
+{
+    background-color:green;
+}
+.card:nth-child(3)
+{
+    background-color:rgb(56, 151, 230) ;
+}
+h2{
+    clear: both;
+    margin: 10px;
+    text-align: center;
+    width: 95%;
+    color: wheat;
+    background-color: teal;
+}

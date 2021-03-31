@@ -1,0 +1,19 @@
+form{
+    width: 70%;
+    margin: 30px 0px 0px 10%;
+}
+label{
+    font-size: 20px;
+    padding:20px;
+}
+input[type='email']
+{
+    margin-bottom: 30px;
+    background: rgb(180, 185, 180);
+}
+
+input[type='submit']{
+    width: 150px;
+    background-color: hotpink;
+    border-radius:10px ;
+}

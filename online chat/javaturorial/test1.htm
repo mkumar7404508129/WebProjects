@@ -1,0 +1,28 @@
+<html>
+    <body>
+        <p id="hworld">hellow world</p>
+        <p >now world</p>
+        <p id="demo"></p>
+        <script>
+            var elemnt=document.getElementsByTagName('p');
+            document.getElementById('demo').innerHTML=elemnt[1].innerHTML;
+        </script>
+        <div id="id">
+            <p>hellow world</p>
+            <p>this is exapmle of</p>
+        </div>
+        <p id="p"></p>
+        <script>
+            var x=document.getElementById('id');
+            var y=x.getElementsByTagName('p');
+            document.getElementById('p').innerHTML=y[0].innerHTML+y[1].innerHTML;
+        </script>
+        <p class="int">hellow</p>
+        <p class="int">world</p>
+        <script>
+            x=document.querySelectorAll('p.int');
+            document.write(Date());
+            document.write(x[0].innerHTML);
+        </script>
+    </body>
+</html>

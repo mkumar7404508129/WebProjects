@@ -1,0 +1,21 @@
+
+*{
+    font-size: 1.5vw;
+}
+form{
+    margin: 2%;
+    float: left;
+    width:30%;   
+}
+legend{
+    background-color: aqua;
+    text-align: center;
+    width: 95%;
+    border: 1px solid red;
+    
+}
+fieldset a{
+    text-decoration: none;
+    border-bottom: oldlace ;
+    margin-left:3vw ;
+}

@@ -1,0 +1,21 @@
+section{
+    clear: both;
+    background-color: rgb(243, 243, 216);
+    overflow: auto;
+}
+
+aside iframe{
+    border:2px solid rgb(75, 80, 79);
+    height:30vw;
+    width:20%;
+    float: left;
+    
+}
+main iframe{
+    width: 78vw;
+    height: 60vw;
+    margin-left:1%;
+    
+    float: left;
+    background-color: rgb(243, 243, 216);
+}

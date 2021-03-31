@@ -1,0 +1,14 @@
+table{
+    clear: both;
+    width: 100vw;
+    background-color: aqua;
+}
+
+td{
+    width: 47%;
+    height: 4vw;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+}

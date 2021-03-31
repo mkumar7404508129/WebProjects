@@ -1,0 +1,77 @@
+section{
+    background-image: url("../img/labrary1.jpeg");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    height:85vh ;
+}
+.left{
+    opacity:0.8;
+    float: left;
+    width: 30%;
+    background-color: antiquewhite;
+    height:85vh;  
+}
+.left img{
+    box-shadow: 3px 3px 3px 3px brown;
+    display: none;
+    width: 40px;
+    height:8vh;
+    margin-left:5%;
+}
+
+.left a{
+    background-color: rgb(194, 228, 144);
+    display: block;
+    margin-top:5px ;
+    padding:20px 20px 20px 20px;
+}
+.left a:hover{
+    box-shadow: rgb(255, 158, 47) 2px 2px 2px 2px;
+    text-align: center;
+    margin:3px ;
+    font-size: 25px;
+    border-radius:12px ;
+    background-color: green;
+}
+.right{
+    float: left;
+    width:70%;
+}
+
+iframe{
+    width:100% ;
+    opacity:0.8;
+    height:85vh;
+    overflow: auto;
+    background-image: linear-gradient(to top, white, rgb(220, 236, 220), rgb(216, 216, 252) );
+    background-attachment: scroll;
+}
+@media (min-width:300px) and (max-width:800px)
+{
+
+    .left img{
+        display: inline;
+    }
+.left{
+    float:none;
+    overflow: auto;
+    opacity:  0.8;
+    width:100%;
+    height:8vh;
+    background-color: black;
+}
+ .right{
+    overflow: auto;
+     float:none;
+     width: 100%;
+ }
+ iframe{
+     height:77vh;
+     
+ }
+ .left li a{
+     display:block;
+ }  
+}
+
+

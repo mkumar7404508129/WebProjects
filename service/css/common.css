@@ -1,0 +1,53 @@
+*{  
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 100%;
+    width: 100%;
+}
+.header{
+    box-shadow: 2px 5px 6px rgb(218, 230, 218);
+    top:0px;
+    position:sticky;
+    width: 100vw;
+    height: 10vh;   
+    background-color: rgb(230, 176, 176);
+}
+header h1,header p {
+    color: white;
+    height: 30px;
+    float: left;
+    margin-top: 1%;
+    margin-left: 20px;
+}
+
+header p{
+    font-style: italic;
+    padding-top: 15px;
+}
+legend {
+    background-color: honeydew;
+    width: 100%;
+}
+
+input{
+        width: 100%;
+        padding: 2px 20px 2px 20px;
+        margin-top:10px ;
+        border-radius:5px ;
+        font-size: 30px;
+    }
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+ 
+
+table{
+    width: 100%;
+    text-align: center;
+    border: 2px rgb(12, 12, 12) solid;    
+}

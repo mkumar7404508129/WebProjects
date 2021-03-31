@@ -1,0 +1,15 @@
+footer{
+    height:2vw;
+    font-size: 2vw;
+    background-color: wheat;
+    text-align: center;
+    clear: both;
+}
+
+.link:hover{
+ background-color: aqua;  
+}
+.link{
+    float: left;
+    clear: both;
+}

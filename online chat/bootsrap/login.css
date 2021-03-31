@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:content-box ;
+}
+body{
+    background-color:green;
+   /*background-image:url('https://images.pexels.com/photos/257360/pexels-photo-257360.jpeg?cs=srgb&dl=trees-in-park-257360.jpg&fm=jpg');*/
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100%;
+   font-family: 'Numans', sans-serif;
+  
+}
+.container{
+    display: flex;
+ background-color: hotpink;
+ margin-left: 10%;
+ margin-right: 10%;
+ padding-left: auto;
+ padding-right: auto;
+ max-height: initial;
+ align-content: center;
+ clear: both;
+}
+.card{
+   
+    height: 400px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(21, 197, 21, 0.5) !important ;
+}
+.card-header h3{
+    padding-top: auto;
+    color: rgb(244, 247, 246);
+    font-size: 3vw;;
+
+}
+
+.input-group-prepend span{
+    width: 50px;
+    background-color: #FFC312;
+    color: rgb(204, 11, 11);
+    border:0 !important;
+    }
+input:focus{
+        outline: 0 0 0 0  !important;
+        box-shadow: 0 0 0 0 !important; 
+        }
+.remember{
+    color:whitesmoke
+}
+.remember input{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+        
+}
+.login-btn{
+    color: #000;
+    background-color: rgb(211, 14, 211);
+    width: 100px;
+    float: right;
+}
+.login-btn:hover{
+    color: yellow;
+    background-color: green;
+}
+.ucard{
+   
+    
+    height: 100%;
+    margin-left: 30%;
+   
+    
+}
+.card-body{
+ 
+    align-content: center;
+}

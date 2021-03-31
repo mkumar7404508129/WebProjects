@@ -1,0 +1,93 @@
+<html en=>
+    <head>
+        <title> animation</title>
+        <link rel="icon" href="https://cdn3.iconfinder.com/data/icons/smashing-bold/1024/games-512.png">
+        <style> 
+            *{
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;            
+                }
+                #container{
+                    background-color: royalblue;
+                    width: 300px;
+                    height: 300px;
+                    position: relative;
+                }
+                #animate{
+                    margin: 1%;
+                    background-color: yellow;
+                    height:50px;
+                    width: 50px;
+                    position: absolute;
+                }
+                #onvoer{
+                    height: 100px;
+                    background-color: greenyellow;
+                }
+        </style>
+    </head>
+    <body>
+        <button id="button" onclick="anifun()">click on me</button>
+        <div id='container' onmouseover="fun2()" onmouseout="fun3()">
+            <div id='animate'></div>
+        </div>
+        <script>
+            function anifun()
+                {
+                    var elemt=document.getElementById('animate');
+                    var elemt1=document.getElementById('container')
+                    var pos=0;
+                    var intervel=setInterval(frame,50);
+                    
+                    function frame()
+                    {
+                        if(pos==260)
+                        {
+                            clearInterval(intervel);
+                        }
+                        else{
+                            pos++;
+
+                            elemt.style.top=pos+"px";
+                            elemt.style.left=pos+"px"
+                        }
+
+                    }
+                }
+        </script>
+        <h3> change tha value to upper case</h3>
+        <input type="text" onchange="fun()" id="fname">
+        <script>
+            function fun()
+            {
+               var x=document.getElementById('fname');
+               x.value=x.value.toUpperCase();
+            }
+            function fun2()
+            {
+                var x=document.getElementById('container');
+                x.style.backgroundColor='red';
+            }
+            function fun3()
+            {
+                var x=document.getElementById('container');
+                x.style.backgroundColor='green';
+            }
+        </script>
+    <h1> click using mouse</h1>
+    <div id="onvoer" onmousedown="fun4()" onmouseup="fun5()">
+        <p>hellow india</p>
+    </div>
+    <script>
+        function fun4()
+        {
+            document.getElementById("onvoer").innerHTML='hellow Nepal';
+        }
+        function fun5() {
+            document.getElementById("onvoer").innerHTML='hellow India';
+            
+        }
+    </script>
+    </body>
+</html>

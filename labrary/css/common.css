@@ -1,0 +1,161 @@
+*{   
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+    
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    box-shadow: rgb(235, 175, 175) 2px 2px 2px;
+    text-align: center;
+    margin-bottom: 2px;
+    padding-top:3vh;
+    height: 15vh;
+    background-size: cover;   
+    background-image:url("../img/vaish.jpeg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    clear: both;
+}
+.top_nav{
+    opacity:  0.8;
+    width:100%;
+    height:8vh;
+    background-color: black;
+}
+.top_nav img{
+    box-shadow: 3px 3px 3px 3px brown;
+    display: none;
+    width: 40px;
+    height:8vh;
+    margin-left:5%;
+}
+li{
+    list-style: none;
+}
+.top_nav li{
+    text-align: center;
+    padding-top:10px ;
+    margin-left: 5%;   
+    float: left;
+}
+a{
+    font-weight: bold;
+    color:rgb(39, 30, 30);
+    text-decoration:none;
+}
+a:active{
+    background-color: royalblue;
+}
+.top_nav a:hover,.top_nav img:hover{
+    border-radius: 12px;
+    padding:15px 30px 15px 15px;
+     box-shadow:5px 5px 5px 5px rgb(17, 243, 54);
+}
+.top_nav a{
+    box-shadow:2px 2px 2px 2px rgb(128, 30, 0);
+    padding:10px 40px 10px 10px;
+    font-size:20px;   
+    background-color: rgb(219, 218, 216);
+}
+.labrary{
+    background-image: url("../img/labrary.jpeg");     
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.req_search,#sign{
+    opacity: 0.7;
+    margin-top:5vh ;
+    width: 60%;
+    margin-left:20%;
+    height: 65vh;
+    padding: 5%;
+    background-color: rgb(54, 35, 58);
+}
+.facility{
+    background-color: rgb(233, 233, 236);
+    border-radius: 20px;
+    height: 40vh;
+
+}
+.facility img{
+    height: 90%;
+    width: 30%;
+    border-radius:20px ;
+    background-color: brown;
+    margin:10px;
+}
+
+footer{
+    clear: both;
+    overflow: auto;
+   min-height: 15vh;
+    background-color: rgb(114, 100, 7);
+}
+footer div{
+    text-align: center;
+    width: 40%;
+    float: left;
+}
+#sign{
+    font-size: 20px;
+    background-color: rgb(235, 215, 105);
+}
+legend{
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+}
+label{
+    padding-top: 20px;
+    padding-left:20px ;
+}
+input{
+     width :100%;
+     height: 50px;
+     font-size: 20px;
+     padding-left: 20px;
+}
+input[type="submit"]{
+    border-radius: 20px;
+    font-weight: bold;
+    width: 40%;
+    margin-left: 30%;
+}
+@media (min-width:300px) and (max-width:800px)
+{
+    .top_nav{
+        height: auto;
+        overflow: auto;
+    }
+  .top_nav li{
+      display:block;
+      text-align:left; 
+      float: none;
+  }  
+ .top_nav img{
+      display: inline;
+  }
+  .top_nav a{
+      padding:0px;
+  }
+}

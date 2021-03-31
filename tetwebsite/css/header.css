@@ -1,0 +1,44 @@
+*{
+   margin: 0px;
+   box-sizing:border-box;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    
+    margin-top: 1px;
+    padding: 1px;
+    font-size:2vw;
+    overflow: auto;
+    background:rgb(245, 195, 195);
+}
+ 
+#top{
+    height: 100%;
+    width: 85%;
+    float: left;
+    overflow: auto;    
+}
+
+#top img{
+    background-color: aqua;
+    width: 20vw;
+    height: 10vw;
+    float: left;
+}
+  
+#login{
+    float: left;
+    
+}
+#login a{
+   
+    font-size: 2vw;
+    text-decoration: none;
+}
+#login img{
+    width: 8vw;
+    height:6vw;
+}
+#login:hover{
+    background-color: turquoise;
+}
