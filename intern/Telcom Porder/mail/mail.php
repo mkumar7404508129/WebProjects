@@ -10,7 +10,7 @@
  $mail->SMTPAuth=True;
  $mail->SMTPSecure='tls';
  $mail->Username="mkumar7404508129@gmail.com";
- $mail->Password="Mkabc18@";
+ $mail->Password="//";
  $mail->setFrom("mkumar7404508129@gmail.com","Telcome Porder");
  $mail->addAddress("$to");
  
@@ -22,7 +22,7 @@
   Thanks For taking Part in This contest ";
  
 
- if(!$mail->send())
+ if(false)
  {
      echo "<script>alert('!!!Wrong Email')</script>";
      unset($_POST['submit']);
