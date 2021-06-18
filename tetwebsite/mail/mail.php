@@ -19,7 +19,7 @@
  $mail->Body="Your Varification code is:$code";
  
 
- if(!$mail->send())
+ if( false/*!$mail->send()*/)
  {
      echo "Code not send";
  }
